@@ -1,0 +1,21 @@
+Change the database name if required
+
+Change the server port if required
+
+Run below commands
+maven package
+
+java -jar target/spring-boot-mysql-rest-api-dispenser-1.0.jar
+
+mvn spring-boot:run
+
+Once the server is setup you should be able to access the REST APIs following base-path : 
+http://localhost:8080/api/
+
+Swagger documentation
+http://localhost:8080/swagger-ui/index.html
+
+Some of the important api endpoints are as follows :
+http://localhost:8080/api/denoms(HTTP:POST)
+http://localhost:8080/api/denoms (HTTP:GET)
+http://localhost:8080/api/denoms/{id} (HTTP:GET)
